@@ -1,4 +1,4 @@
-2.3.2 (unreleased)
+2.3.2 (2016-04-07)
 ------------------
 
 - Allow PAS plugin loading to continue in debug mode (development) with an error warning if the kerberos library cannot be loaded on unix.
