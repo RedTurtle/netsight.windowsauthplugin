@@ -22,4 +22,14 @@
       i18n:translate="title description"
       />
 
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="Windows authentication for mixed environments: uninstall"
+      directory="profiles/uninstall"
+      description="Deactivates netsight.windowsauthplugin"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      i18n:translate="title description"
+      />
+
 </configure>
